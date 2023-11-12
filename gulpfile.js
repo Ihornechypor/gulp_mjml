@@ -1,20 +1,33 @@
-const {series, src, dest } = require('gulp')
+const {series, src, dest, parallel, watch} = require('gulp')
 const mjml = require('gulp-mjml')
-const mjmlEngine = require('mjml')
+const browserSync = require('browser-sync').create();
 
 
 const config = {
     dest: "./dist/",
     src: "./src/",
-    mailsFolder: "./mails/",
+    mailsExt: '*.mjml',
+    mailsFolder: `./src/mails/**/*.mjml`
 }
 
 const build = (done) => {
-  src(`${config.src}/${config.mailsFolder}/*.mjml`)
+  src(config.mailsFolder, {"allowEmpty": true})
     .pipe(mjml())
     .pipe(dest(`${config.dest}`))
+    .pipe(browserSync.stream())
   done();
 }
 
+const watcher = () => { 
+  browserSync.init({
+    server: config.dest
+  })
+  watch(`${config.src}**/*.*`, build);
+};
+
+
 exports.build = build;
-exports.default = series(build);
+exports.watcher = watcher;
+
+exports.default = parallel(build);
+exports.watcher = parallel(watcher);
