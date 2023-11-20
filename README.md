@@ -46,7 +46,9 @@ $ npm run build
 
 ### SCSS 
 MJML lacks native support for SCSS. To address this, two components, namely *headStyleForInject.mjml* and *headStyleNew.mjml*, have been created in the *src/components/* folder. In *headStyleForInject.mjml*, the **`<styleInline></styleInline>`** custom tag is automatically replaced with CSS from the *src/assets/scss/styles_inline.scss* file. Additionally, there is a custom tag **`<styleResponsive></styleResponsive>`** that incorporates styles from the *src/assets/scss/styles_responsive.scss* file.
-Also you need to create two types of scss files one for responsive css, and one for inline css, and then add them separetelly to **styles_inline.scss** file and **styles_responsive.scss**
+Also you need to create two types of scss files one for responsive css, and one for inline css, and then add them separetelly to **styles_inline.scss** file and **styles_responsive.scss**. 
+**Don't rename this scss files** or if you rename them, just remember to shange them in *gulpfile.mjs*.
+*(I will refactor this fiels  in the next iteration, so will not need to create separate files for responsive and inline)*
 
 
 ### Images
