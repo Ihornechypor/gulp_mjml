@@ -1,0 +1,9 @@
+.spacerRsp {
+    @media only screen and (max-width: $brakpoint599) {
+        padding-top: 17px!important;
+    }
+
+    @media only screen and (max-width: $brakpoint479) {
+        padding-top: 15px!important;
+    }
+}    

@@ -1,0 +1,22 @@
+@import './typography/typography_inline';
+@import './variables/variables';
+@import './components/presentationTable';
+
+.mail_body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.mail_img {  
+    height: auto;
+}
+
+
+
+.col_gutter {
+    > td {    
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+} 
+

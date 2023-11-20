@@ -7,7 +7,7 @@ const config = {
     dest: "./dist/",
     src: "./src/",
     mailsExt: '*.mjml',
-    mailsFolder: `./src/mails/**/*.mjml`
+    mailsFolder: './src/mails/**/*.mjml'
 }
 
 const build = (done) => {

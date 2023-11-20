@@ -1,0 +1,15 @@
+<mj-section padding="0">
+  <mj-column padding="0">
+    <mj-table padding="0" s>
+      <tr>
+        <td style="padding-top: 36px;padding-bottom: 36px" class="">
+          <center>
+            <a href="https://www.slokky.com/" target="blank">
+              <img src="img/opti/footer_logo.png" alt="" width="87" height="27" style="width: 87px" class="mail_img">
+            </a> 
+          </center>
+        </td>
+      </tr>
+    </mj-table>
+  </mj-column>
+</mj-section>

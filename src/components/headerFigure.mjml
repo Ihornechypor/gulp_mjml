@@ -1,0 +1,15 @@
+<mj-table padding="0px" css-class="header__logoTable">
+  <tr>
+    <td style="padding: 0px" class="header__logoTd">
+      <center>
+        <a href="https://www.slokky.com/" target="blank">
+          <img src="img/opti/logo_bg_top.png" alt="" width="100" height="53" style="width: 100px" class="mail_img hide_for_sm">
+
+                  <!--[if !mso]><!-->
+          <img src="img/opti/logo_top_full.png" alt="" width="47" height="" style="width: 47px" class="mail_img show_for_sm"> 
+        <!--<![endif]-->
+        </a>
+      </center>
+    </td>
+  </tr>
+</mj-table>

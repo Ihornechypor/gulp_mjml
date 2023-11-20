@@ -1,0 +1,6 @@
+<mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" />
+<mj-attributes>
+  <mj-all font-family="'sofia-pro','Raleway', sans-serif" font-size="17px" color="#808080" line-height="1.4" />
+</mj-attributes>
+<mj-breakpoint width="320px" />
+<mj-include path="headStyleNew.mjml" />

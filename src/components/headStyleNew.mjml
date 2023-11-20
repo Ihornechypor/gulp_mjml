@@ -1,0 +1,178 @@
+<mj-style inline="inline">
+  h1, h2, h3, p {
+  margin: 0;
+}
+
+.as_text {
+  color: #808080;
+}
+
+.fBlack {
+  color: #1C1E21;
+}
+
+.fGray {
+  color: #808080;
+}
+
+.tDecNone {
+  text-decoration: none;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.presentationTable {
+  border-radius: 3px;
+  border: 1px solid #E4E4E4;
+  border-collapse: separate;
+  width: 100%;
+}
+.presentationTable th, .presentationTable td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.presentationTable__headTd {
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.presentationTable__credsTd {
+  padding-top: 30px;
+}
+
+.mail_body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.mail_img {
+  height: auto;
+}
+
+.col_gutter > td {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+</mj-style>
+<mj-style>
+  @import url("https://use.typekit.net/pvf7cdb.css");
+@media only screen and (max-width: 599px) {
+  .header__td {
+    padding-top: 36px !important;
+  }
+  .header__td img {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .header__logoTd {
+    padding-top: 19px !important;
+    padding-bottom: 19px !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .header__logoTable {
+    border-bottom: 1px solid #F3F3F3;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .presentationTable.presentationTable th, .presentationTable.presentationTable td {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .presentationTable.presentationTable th, .presentationTable.presentationTable td {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .presentationTable__credsTd {
+    box-sizing: border-box !important;
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .smPdTop38 {
+    padding-top: 38px !important;
+  }
+  .smPdTop18 {
+    padding-top: 18px !important;
+  }
+  .smPdBt38 {
+    padding-bottom: 38px !important;
+  }
+}
+@media only screen and (max-width: 599px) {
+  .spacerRsp {
+    padding-top: 17px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .spacerRsp {
+    padding-top: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .mail_body {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .mail_body {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .col_gutter td {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .col_gutter td td {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .col_gutter td {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .hide_for_sm {
+    display: none !important;
+  }
+}
+
+.show_for_sm {
+  display: none;
+}
+@media only screen and (max-width: 599px) {
+  .show_for_sm {
+    display: block !important;
+  }
+}
+</mj-style>
