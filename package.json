@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp serve",
     "build": "gulp build",
     "test": "gulp t"
   },
@@ -20,9 +21,5 @@
     "gulp-replace": "^1.1.4",
     "gulp-sass": "^5.1.0",
     "sass": "^1.69.5"
-  },
-  "dependencies": {
-    "gulp-inject": "^5.0.5",
-    "gulp-insert": "^0.5.0"
   }
 }

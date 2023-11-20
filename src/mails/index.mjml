@@ -1,9 +1,5 @@
 <mjml>
   <mj-head>
-    <mj-title>
-      Exmaple mjml
-    </mj-title>
-    <mj-preview></mj-preview>
     <mj-include path="../components/head.mjml" />
   </mj-head>
   <mj-body width="600px" background-color="#F3F3F3" css-class="mail_body">
@@ -11,70 +7,29 @@
     <mj-wrapper background-color="#fff" padding="0px" border-radius="4px">
       <mj-section padding="0">
         <mj-column padding="0 60px 0" css-class="col_gutter">
+          <mj-include path="../components/headerFigure.mjml" />
+        </mj-column> 
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column padding="0 60px 0" css-class="col_gutter">
           <mj-table padding="0">
             <tr>
               <td style="padding-top: 24px" class="text_center fBlack f30 smPdTop38">
                 <b>
-                Exmaple mjml
+                  Mail
                 </b>
               </td>
             </tr>
             <tr>
               <td class="text_center smPdTop18 smPdBt38" style="padding-top: 24px;padding-bottom: 42px;">
-                We've received your message via our website's contact form. Our team will review it and get back to you as soon as possible, typically within 24 hours. <br><br>
-                In the meantime, if you have any other questions or need immediate assistance, feel free to reach out to us via our Live Chat or visit our <a href="https://www.slokky.com/help" class="as_text">Help Centre</a>.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam doloribus perspiciatis facilis laboriosam quas hic quae amet inventore magni quia! Voluptates aut placeat a quia expedita, animi nostrum. Natus, soluta.
               </td>
             </tr>
-          </mj-table>
-          <mj-table padding="0">
             <tr>
               <td>
-                <table class="presentationTable" cellpadding="0" cellspacing="0" width="100%" border="0">
-                  <tr>
-                    <th class="text_center fBlack f20 presentationTable__headTd" style="padding-top: 10px;padding-bottom: 7px;" colspan="2">
-                      Your submission
-                    </th>
-                  </tr>
-                  <tr>
-                    <td class="presentationTable__credsTd">
-                      <b class="fBlack">
-                        Name:
-                      </b>
-                      <br>
-                      Jacky Raimond
-                    </td>
-                    <td class="presentationTable__credsTd">
-                      <b class="fBlack">
-                        E-mail:
-                      </b>
-                      <br>
-                      <a href="mailto:jacky@raimond.nl" class="as_text tDecNone">
-                        jacky@raimond.nl
-                      </a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding-top: 30px" colspan="2">
-                      <b class="fBlack">
-                        Message:
-                      </b>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td colspan="2" style="padding-bottom: 30px">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <br><br>
-                      It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br><br>
-                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </mj-table>
-          <mj-table padding="0">
-            <tr>
-              <td style="padding-top: 37px" class="spacerRsp">
-                &nbsp;
+                <center>
+                  <img src="img/opti/download.png" alt="" style="width: 320px">
+                </center>
               </td>
             </tr>
           </mj-table>

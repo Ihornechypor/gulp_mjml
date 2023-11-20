@@ -24,7 +24,7 @@ const config = {
   imgFolderOpti: './src/mails/img/opti/',
   cssFolderDest: './dist/assets/css/',
   cssFileInjectInline: './dist/assets/css/styles_inline.css',
-  cssFileInjectResponsive: './dist/assets/css/styles_responvive.css',
+  cssFileInjectResponsive: './dist/assets/css/styles_responsive.css',
   scssFiles: './src/assets/scss/*.scss',
   scssFolder: './src/assets/scss/**/*.scss'
 }
@@ -72,7 +72,7 @@ const buildMjml = (done) => {
     .pipe(mjml())
     .pipe(dest(`${config.dest}/mails/`))
   browserSync.reload()
-  done && done(); 
+  done && done();
 }
 
 const watcher = () => { 
@@ -88,4 +88,4 @@ const watcher = () => {
 };
 
 task('build', series(cleanFolders,buildSass,img,buildMjml,watcher))
-task('watcher', watcher)
+task('serve', series(buildSass,img,buildMjml,watcher))

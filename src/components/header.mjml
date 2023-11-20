@@ -2,11 +2,9 @@
   <mj-column padding="0">
     <mj-table padding="0">
       <tr>
-        <td style="padding-top: 26px" class="header__td">
+        <td style="padding-top: 26px;padding-bottom: 26px;" class="header__td">
           <center>
-            <a href="https://www.slokky.com/" target="blank">
-              <img src="img/opti/logo_top_full.png" alt="" width="45" style="width: 45px" class="mail_img hide_for_sm">
-            </a>
+            header
           </center>
         </td>
       </tr>

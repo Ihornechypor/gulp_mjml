@@ -1,11 +1,7 @@
-@import url("https://use.typekit.net/pvf7cdb.css");
 @import './variables/variables';
 @import './components/header_responsive';
-@import './components/presentationTable_responsive';
-@import './helpers/smPd_responvive';
-@import './helpers/spacerRsp_responvive';
 
-
+ 
 .mail_body {
     @media only screen and (max-width: $brakpoint599) {
         padding-left: 20px !important;
